@@ -15,7 +15,7 @@ module.exports = {
     */
   },
   devServer: {
-    contentBase: './dist'
+    static: './dist'
   },
   module: {
     rules: [
